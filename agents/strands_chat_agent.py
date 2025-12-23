@@ -10,7 +10,7 @@ from tools.weather import weather
 from tools.time_tool import get_time
 from tools.random_tools import random_number, random_color
 from tools.text_tools import text_length, reverse_text
-from tools.conversion_tools import celsius_to_fahrenheit, kilometers_to_miles
+#from tools.conversion_tools import celsius_to_fahrenheit, kilometers_to_miles
 
 app = BedrockAgentCoreApp()
 
