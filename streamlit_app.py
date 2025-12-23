@@ -70,8 +70,7 @@ if st.button("Send", type="primary") or submit_clicked:
                 
                 # Call the agent
                 response = agentcore_runtime.invoke_agent_runtime(
-                    agentRuntimeArn="arn:aws:bedrock-agentcore:us-east-1:154594000270:runtime/strands_claude_getting_started-2YB1UD8sbu",
-                    #agentRuntimeArn="arn:aws:bedrock-agentcore:us-east-1:154594000270:runtime/hosted_agent_akljv-tDq6YRD9Ht",
+                    agentRuntimeArn="arn:aws:bedrock-agentcore:us-east-1:154594000270:runtime/strands_chat_agent-y4N2QYBYXG",
                     payload=json.dumps({"prompt": user_prompt}).encode('utf-8')
                 )
                 
